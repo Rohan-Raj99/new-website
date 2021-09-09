@@ -1,0 +1,112 @@
+
+  .wrapper{
+	width: 100%;
+}
+.box{
+	height: 600px;
+	border: 1px solid black;
+	box-sizing: border-box;
+	float:left;
+	display: flex;
+    margin: 1em;
+	flex-direction:row;
+	flex-wrap: wrap;
+    background-color: goldenrod;
+}
+
+.inner{
+    border:1px solid blue;
+    background-color: rgba(255, 217, 0, 0.856);
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+
+}
+.a{
+    border:1px solid blue;
+    background-color: deepskyblue;
+    
+    
+    
+}
+.b{
+    border:1px solid blue;
+    background-color: deepskyblue;
+    
+    
+}
+.c{
+    border:1px solid blue;
+    background-color: deepskyblue;
+    
+}
+.d{
+    border:1px solid blue;
+    
+}
+    
+
+@media screen and (min-width: 769px){
+    .box{
+		width: 30%;
+	}
+	.inner{
+		height: 45%;
+	}
+    .a{
+        width: 45%;
+        height: 45%;
+
+    }
+    .b{
+        width: 90%;
+        height: 45%;
+       
+       
+    }
+    .c{
+        height: 90%;
+        width: 45%;
+        
+
+    }
+
+    .d{
+        width: 45%;
+        height: 45%;
+    }
+
+
+
+}
+
+@media screen and (max-width: 768px){
+    .box{
+		width: 100%;
+	}
+	.inner{
+		height: 30%;
+	}
+    .a{
+        width: 45%;
+        height: 45%;
+
+    }
+    .b{
+        width:93%;
+        height: 40%;
+
+    }
+    .c{
+        height: 40%;
+        width: 90%;
+
+    }
+
+    .d{
+        width: 45%;
+        height: 45%;
+    }
+    
+
+}
